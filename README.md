@@ -464,3 +464,38 @@ You’ll have a fully working, publicly accessible **Game 2048** web app running
 - Ingress via AWS Load Balancer Controller
 
 - IAM-secured access using OIDC
+
+## Snapshots
+
+### AWS Configure
+- Configure AWS to work with AWS CLI
+![AWS Configure](./Screenshots/AWS-Configure.png)
+
+### Create Cluster
+- Create AWS EKS cluster using eksctl
+![Create Cluster](./Screenshots/create-cluster.png)
+
+### Create Fargate Profile
+- Create fargate profile using eksctl commands
+![Create Farget Profile](./Screenshots/create-fargate-profile.png)
+![Fargate Profile](./Screenshots/fargate-profile.png)
+
+### Associate IAM OIDC
+- Associate IAM OIDC to cluster
+![Associate IAM OIDC](./Screenshots/create-oidc.png)
+
+### Create IAM Policy
+![Create IAM Policy](./Screenshots/create-IAM-policy.png)
+
+### Create IAM Role
+- Create IAM role for load balancer controller
+![Create IAM Role](./Screenshots/create-IAM-role.png)
+
+### Install ALB Controller
+- Install AWS Application Load Balancer
+![AWS ALB Controller](./Screenshots/install-lb-controller.png)
+![ALB Ingress](./Screenshots/lb-ingress.png)
+
+### Successfully Access An Application
+- Successfully able to access application on Application Load Balancer Endpoint
+![Game-2048](./Screenshots/tada.png)
