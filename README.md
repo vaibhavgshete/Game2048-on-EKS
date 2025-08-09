@@ -23,7 +23,7 @@ This project demonstrates how to deploy the **Game 2048** web application on **A
 Make sure the following tools are installed:
 
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-- [eksctl](https://eksctl.io/introduction/#installation)
+- [eksctl](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [Helm](https://helm.sh/docs/intro/install/)
 
